@@ -19,8 +19,8 @@ int print_menu() {
 	cout << "Enter 1 for New Contact: " << endl
 		<< "Enter 2 for All Contacts: " << endl
 		<< "Enter 3 to Delete a New Contact: " << endl
-		<< "Enter 4 to Favorite/Unfavorite an Exisiting Contact << 
-		<< "Enter 5 to Quit the 
+		<< "Enter 4 to Favorite/Unfavorite an Exisiting Contact: " << endl 
+		<< "Enter 5 to Quit the Program: " << endl;
 	int u_choice = 0;
 	cin >> u_choice;
 	while (cin.fail()) {
